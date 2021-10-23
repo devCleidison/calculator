@@ -31,9 +31,6 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 # Clone este repositório
 $ git clone https://github.com/devCleidison/calculator.git
 
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd README-ecoleta
-
 # Vá para a pasta da aplicação Front End
 $ cd calculator
 
