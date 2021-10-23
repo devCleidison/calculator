@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.calculator-container {
+  width: 350px;
+  height: 600px;
+
+  background-color: #f5f5f5;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.display-container {
+  width: 100%;
+  height: 40%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.display-content {
+  margin-right: 10px;
+  text-align: right;
+}
+.calcs {
+  color: #259c91;
+
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.result {
+  font-size: 50px;
+  font-weight: 600;
+
+  margin: 10px 0;
+}
+
+.keyboard-container {
+  width: 100%;
+  height: 60%;
+
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+
+  box-shadow: 0 0 5px rgb(204, 204, 204);
+}
+
+.keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.key-container {
+  width: 100%;
+  height: 100%;
+
+  font-size: 24px;
+
+  background-color: #f5f5f5;
+
+  border: 1px solid #e9e8e8;
+}
+
+.key-operation {
+  background-color: #c2eeeb;
+
+  font-size: 30px;
+}
+.key-result {
+  width: 200%;
+
+  font-size: 40px;
+
+  background-color: #28aea1;
+
+  color: white;
+}
